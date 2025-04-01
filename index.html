@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+      <style>
+        .swiper-slide img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .swiper-container {
+            padding: 20px 0;
+        }
+    </style>
+  
+  </head>
+  <body>
+
+    <section id="topbar" class="bg-primary" style="border-bottom:1px dotted darkred;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-6 py-3 px-0 text-center">
+                    <div class="contact-info" style="font-size:1.5rem;color:darkred;">
+                        <a href="#"  class=""  class="twitter ms-2  "><i class="fa-brands fa-twitter " style="color:#f0f1f1; "></i></a>
+                        <a href="#" class="facebook ms-2"><i class="fa-brands fa-facebook" style="color:#fefeff;"></i></a>
+                        <a href="#" class="instagram ms-2"><i class="fa-brands fa-instagram" style="color:#f5f0f1;"></i></a>
+                        <a href="#" class="linkedin ms-2"><i class="fa-brands fa-linkedin" style="color:#fafafa;"></i></a>
+                        <a href="#" class="google ms-2"><i class="fa-brands fa-google" style="color:#fdfbfb;"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 py-3 text-center">
+                    <div class="btn-3 ms-4 " style=" color:white; font-size:1rem;">
+                        <a href="" target="_blank"><i class="bi bi-lock-fill " style="font-size:1rem;"></i> <i class="fa-solid fa-phone" style="color:#fcf8f8;">(+91) 9453432610 </i> </a> |
+                        <a href="" target="_blank"><i class="bi bi-person-fill" style="font-size:1rem;"></i></a> 
+                        <a href=""  style="color:#fdfbfb; font-size:1rem ; " class="fw-bold"><i class="fa-solid fa-envelope" style="color:#fcf8f8;"></i>Admin1315@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <div class="col-sm-6">
+        <img src="/img/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>  
+          <div class="col-sm-6 ">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item px-4 ">
+                    <a class="nav-link active fw-bold" aria-current="page" href="/index.html">Home</a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link active fw-bold" aria-current="page" href="/about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown px-4 ">
+                    <a class="nav-link fw-bold dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" >
+                      Our Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item fw-bold" href="/internship.html">Internship</a></li>
+                      <li><a class="dropdown-item fw-bold" href="/corporate.html">Corporate Training</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item fw-bold" href="/staffing.html">Staffing & Recruitments</a></li>
+                    </ul>
+                  </li>
+                
+                  <li class="nav-item px-4">
+                    <a class="nav-link active fw-bold"  aria-current="page" href="/contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item px-4">
+                   <a href="/apply.html"  type="button" class="btn btn-outline-primary fw-bold">Apply Now</a>
+                  </li>
+                </ul>
+                  </div>
+          </div>
+         
+        </div>
+      </nav>
+<!-- nav end -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/b1.jpg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/b2.jpg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                   
+                </div>
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- coursel end  -->
+ <!-- our service start  -->
+ <div class="container-fluid mt-3">
+    <div class="row">
+        <div class="col-sm-5"></div>
+        <div class="col-sm-2">
+            <div class="section-title text-center">
+                <h2 style="font-size:1.7rem"><span style="color:darkred">OUR</span> SERVICES</h2>
+            </div>
+        </div>
+        <div class="col-sm-5"></div>
+    </div>
+
+ </div>
+
+ <div class="container mt-2 ">
+    <div class="row">
+        <div class="card-group gap-3">
+            <div class="card">
+              <img src="./img/9.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center fw-bold">Internship</h5>
+                <p class="card-text ">Internships are supervised, structured learning experiences in a professional setting that allow you to gain valuable work experience in a student's chosen field of study.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/A-Guide-to-4k-Video-Conferencing--1024x576.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Corporate Training</h5>
+                <p class="card-text">Corporate training is a broad field encompassing various programs and initiatives aimed at enhancing employees' skills, knowledge, and performance.                    .</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/hiring-career-employment-human-resources-concept_53876-121273.avif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Staffing & Recruitments
+                </h5>
+                <p class="card-text">Staffing and recruitment are critical components of human resource management that focus on finding, attracting, and hiring qualified candidates to fill job positions within an organization.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-body-secondary">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+    </div>
+ </div>
+<!-- our service start  -->  
+<!-- CEO  -->
+<div class="container-fluid mt-5  ">
+  <div class="section-title text-center">
+    <h2 style="font-size:1.7rem"><span style="color:darkred">FROM</span> THE CEO'S DESK</h2>
+</div>
+  <div class="row mt-5">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">Human resources empower teams nurture. <span class="text-body-secondary"> talent, and drive company success</span></h2>
+          <p class="lead">At The India Jobs, our journey is defined by relentless innovation and a commitment to excellence. As we navigate the evolving landscape of our industry, our focus remains on delivering cutting-edge solutions that drive our clients' success. Our mission is to not only meet but exceed the expectations of those we serve. This year, we have made significant strides in expanding our product offerings and enhancing our customer experience. Our team's dedication and expertise are the cornerstones of our achievements, and together, we are setting new benchmarks in the industry.
+             <br><br>
+            Looking ahead, we are excited about the opportunities and challenges that await us. Sustainability, technological advancement, and customer-centricity will continue to guide our strategic initiatives. We are investing in our people and technology to foster a culture of continuous improvement and innovation. Thank you for your trust and partnership. With your support, The India Jobs is poised for a future of sustained growth and success.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+        <img src="./img/premium_photo-1661505218403-c684557a824d.jpg" alt="" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="350" height="300">
+         </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+<!-- client slider  -->
+<div class="container-fluid mt-5  ">
+  <div class="section-title text-center">
+    <h2 style="font-size:1.7rem"><span style="color:darkred">JOB</span> REQUIREMENT</h2>
+</div>
+
+  <div class="row mt-5">
+   <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row text-center">
+        <div class="col-lg-4">
+          <img src="./img/full-stack-web-developer.png" alt="" height="120px" width="120px" class="bd-placeholder-img rounded-circle">
+           <h2 class="fw-normal">Web developer  </h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="./img/hr.jpg" alt="" height="120px" width="120px" class="bd-placeholder-img rounded-circle">
+           <h2 class="fw-normal">HR manager </h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="./img/mis.jpg" alt="" height="120px" width="120px" class="bd-placeholder-img rounded-circle">
+           <h2 class="fw-normal">MIS executive </h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="./img/p.jpg" alt="" height="120px" width="120px" class="bd-placeholder-img rounded-circle">
+           <h2 class="fw-normal">Project manager </h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="./img/g.jpg" alt="" height="120px" width="120px" class="bd-placeholder-img rounded-circle">
+           <h2 class="fw-normal">Graphic designer</h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+        <div class="col-lg-4">
+          <img src="./img/coll.jpg" alt="" height="120px" width="120px" class="bd-placeholder-img rounded-circle">
+           <h2 class="fw-normal">Collection department  
+          </h2>
+          <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+          <p><a class="btn btn-primary" href="#">View details »</a></p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+ 
+  </div>
+</div>
+<!-- client slider end -->
+
+<!-- company start  -->
+<div class="container-fluid mt-5  ">
+  <div class="section-title text-center">
+    <h2 style="font-size:1.7rem"><span style="color:darkred">RECENT</span> PLACEMENT</h2>
+</div>
+
+  <div class="row mt-5">
+   <div class="col-sm-1"></div>
+    <div class="col-sm-10 text-center">
+      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/TCS_NewLogo_Final_RGB.png" class="d-block w-100" height="300px" width="300px" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/HCL-Logo.png" class="d-block w-100" alt="Image 2" height="300px" width="300px">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/489971-reliance-life-insurance.jpg" class="d-block w-100" alt="Image 3" height="300px" width="300px">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/1691506809-0565.avif" height="300px" width="300px" class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/finolex-pipes-111-6.jpg" class="d-block w-100" alt="Image 5" height="300px" width="300px">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/smclogo.png" class="d-block w-100" alt="Image 6" height="300px" width="300px">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+       </div>
+    <div class="col-sm-1"></div>
+ 
+  </div>
+</div>
+
+<!-- footer  -->
+<div class="container-fluid bg-danger ">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="container">
+        <footer class="py-5 ">
+          <div class="row ">
+            <div class="col-6 col-md-2 mb-3 ">
+              <img src="/img/logo.png" alt="" height="120px">
+     
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3  text-white">
+              <h5>User Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3  text-white">
+              <h5>Services</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3  text-white">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between  text-white py-4 my-4 border-top">
+            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <a href="#"  class=""  class="twitter ms-2  "><i class="fa-brands fa-twitter " style="color:#f0f1f1; "></i></a>
+              <a href="#" class="facebook ms-2"><i class="fa-brands fa-facebook" style="color:#fefeff;"></i></a>
+              <a href="#" class="instagram ms-2"><i class="fa-brands fa-instagram" style="color:#f5f0f1;"></i></a>
+              <a href="#" class="linkedin ms-2"><i class="fa-brands fa-linkedin" style="color:#fafafa;"></i></a>
+              <a href="#" class="google ms-2"><i class="fa-brands fa-google" style="color:#fdfbfb;"></i></a>
+           </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- js start  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+     </body>
+</html>

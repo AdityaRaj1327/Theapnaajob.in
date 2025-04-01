@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+      <style>
+        .swiper-slide img {
+            width: 100px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .swiper-container {
+            padding: 20px 0;
+        }
+    </style>
+    <style>
+      .hero {
+          background: url('9.webp') no-repeat center center/cover;
+          height: 50vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          text-align: center;
+      }
+  </style>
+  
+  </head>
+  <body>
+
+    <section id="topbar" class="bg-primary" style="border-bottom:1px dotted darkred;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-sm-6 py-3 px-0 text-center">
+                    <div class="contact-info" style="font-size:1.5rem;color:darkred;">
+                        <a href="#"  class=""  class="twitter ms-2  "><i class="fa-brands fa-twitter " style="color:#f0f1f1; "></i></a>
+                        <a href="#" class="facebook ms-2"><i class="fa-brands fa-facebook" style="color:#fefeff;"></i></a>
+                        <a href="#" class="instagram ms-2"><i class="fa-brands fa-instagram" style="color:#f5f0f1;"></i></a>
+                        <a href="#" class="linkedin ms-2"><i class="fa-brands fa-linkedin" style="color:#fafafa;"></i></a>
+                        <a href="#" class="google ms-2"><i class="fa-brands fa-google" style="color:#fdfbfb;"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-6 py-3 text-center">
+                    <div class="btn-3 ms-4 " style=" color:white; font-size:1rem;">
+                        <a href="" target="_blank"><i class="bi bi-lock-fill " style="font-size:1rem;"></i> <i class="fa-solid fa-phone" style="color:#fcf8f8;">(+91) 9453432610 </i> </a> |
+                        <a href="" target="_blank"><i class="bi bi-person-fill" style="font-size:1rem;"></i></a> 
+                        <a href=""  style="color:#fdfbfb; font-size:1rem ; " class="fw-bold"><i class="fa-solid fa-envelope" style="color:#fcf8f8;"></i>Admin1315@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container-fluid">
+            <div class="col-sm-6">
+        <img src="/img/logo.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>  
+          <div class="col-sm-6 ">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item px-4 ">
+                      <a class="nav-link active fw-bold" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
+                      <a class="nav-link active fw-bold" aria-current="page" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown px-4 ">
+                      <a class="nav-link fw-bold dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" >
+                        Our Services
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item fw-bold" href="/internship.html">Internship</a></li>
+                        <li><a class="dropdown-item fw-bold" href="/corporate.html">Corporate Training</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item fw-bold" href="/staffing.html">Staffing & Recruitments</a></li>
+                      </ul>
+                    </li>
+                  
+                    <li class="nav-item px-4">
+                      <a class="nav-link active fw-bold"  aria-current="page" href="/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item px-4">
+                      <a href="/apply.html"  type="button" class="btn btn-outline-primary fw-bold">Apply Now</a>
+                     </li>
+                  </ul>
+                  </div>
+          </div>
+         
+        </div>
+      </nav>
+<!-- nav end -->
+<section class="hero">
+  <div class="container">
+      <h1 class="display-4 fw-bold">Explore Exciting Internship Opportunities</h1>
+      <p class="lead">Kickstart your career with hands-on experience in top industries.</p>
+  </div>
+</section>
+
+<!-- Internship Listings -->
+<section class="container my-5">
+  <h2 class="text-center mb-4">Available Internships</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Software Development</h5>
+                  <p class="card-text">Gain real-world coding experience with  mentors.</p>
+                  <a href="#" class="btn btn-primary">Apply Now</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Digital Marketing</h5>
+                  <p class="card-text">Learn SEO, social media, and content marketing skills.</p>
+                  <a href="#" class="btn btn-primary">Apply Now</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-4">
+          <div class="card shadow-sm">
+              <div class="card-body">
+                  <h5 class="card-title">Graphic Design</h5>
+                  <p class="card-text">Enhance your design skills with industry projects.</p>
+                  <a href="#" class="btn btn-primary">Apply Now</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="bg-light py-5">
+  <div class="container text-center">
+      <h2 class="mb-4">Why Join Our Internship Program?</h2>
+      <div class="row">
+          <div class="col-md-4">
+              <i class="bi bi-briefcase-fill fs-1 text-primary"></i>
+              <h5 class="mt-3">Real-World Experience</h5>
+              <p>Work on actual projects and build your portfolio.</p>
+          </div>
+          <div class="col-md-4">
+              <i class="bi bi-person-fill fs-1 text-primary"></i>
+              <h5 class="mt-3">Expert Mentors</h5>
+              <p>Learn from industry professionals and leaders.</p>
+          </div>
+          <div class="col-md-4">
+              <i class="bi bi-card-checklist fs-1 text-primary"></i>
+              <h5 class="mt-3">Certificate of Completion</h5>
+              <p>Boost your resume with an accredited certificate.</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+ 
+
+<!-- footer  -->
+<div class="container-fluid bg-danger ">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="container">
+        <footer class="py-5 ">
+          <div class="row ">
+            <div class="col-6 col-md-2 mb-3 ">
+              <img src="/img/logo.png" alt="" height="120px">
+     
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3  text-white">
+              <h5>User Links</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-6 col-md-2 mb-3  text-white">
+              <h5>Services</h5>
+              <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-white">About</a></li>
+              </ul>
+            </div>
+      
+            <div class="col-md-5 offset-md-1 mb-3  text-white">
+              <form>
+                <h5>Subscribe to our newsletter</h5>
+                <p>Monthly digest of what's new and exciting from us.</p>
+                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                  <label for="newsletter1" class="visually-hidden">Email address</label>
+                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                  <button class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      
+          <div class="d-flex flex-column flex-sm-row justify-content-between  text-white py-4 my-4 border-top">
+            <p>© 2024 Company, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <a href="#"  class=""  class="twitter ms-2  "><i class="fa-brands fa-twitter " style="color:#f0f1f1; "></i></a>
+              <a href="#" class="facebook ms-2"><i class="fa-brands fa-facebook" style="color:#fefeff;"></i></a>
+              <a href="#" class="instagram ms-2"><i class="fa-brands fa-instagram" style="color:#f5f0f1;"></i></a>
+              <a href="#" class="linkedin ms-2"><i class="fa-brands fa-linkedin" style="color:#fafafa;"></i></a>
+              <a href="#" class="google ms-2"><i class="fa-brands fa-google" style="color:#fdfbfb;"></i></a>
+           </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- js start  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+     </body>
+</html>
